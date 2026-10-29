@@ -1,0 +1,47 @@
+/* Para descobrir a idade */
+#form {
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#seuAno {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+}
+
+#ano {
+    width: 180px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+input {
+     text-align: center;
+}
+
+#enviar {
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+   
+}
+
+.button {
+    padding: 20px;
+}
+
+#enviar:hover {
+background-color: aquamarine;
+}
+
+#resultado {
+    text-align: center;
+}
